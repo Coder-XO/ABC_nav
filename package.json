@@ -1,0 +1,11 @@
+{
+  "scripts": {
+      "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "name": "website_navigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Coder-XO/ABC_nav.git",
+  "author": "Coder-XO <coderless@gmail.com>",
+  "license": "MIT"
+}
