@@ -56,11 +56,11 @@ window.onbeforeunload = () => {    // 网页关闭或切换网址时触发
     const string = JSON.stringify(hashMap);
     window.localStorage.setItem('website-list', string);   // 在本地存储一个x变量
 }
-$(document).on('keypress',(event) => {   // 键盘打开网址
-    const {key} = event;
-    for (let i = 0;i < hashMap.length;i++){
-        if(hashMap[i].logo.toLowerCase() === key){
-            window.open(hashMap[i].url);
-        }
-    }
-})
+// $(document).on('keypress',(event) => {   // 键盘打开网址
+//     const {key} = event;
+//     for (let i = 0;i < hashMap.length;i++){
+//         if(hashMap[i].logo.toLowerCase() === key){
+//             window.open(hashMap[i].url);
+//         }
+//     }
+// })
